@@ -10,5 +10,10 @@ public class ActitimeLogin {
 	{
 		Reporter.log("Login",true);
 	}
+	@Test
+	public void logOut()
+	{
+		Reporter.log("LOGOUT",true);
+	}
 	
 }
