@@ -1,0 +1,14 @@
+package com.actitime.login;
+
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class ActitimeLogin {
+
+	@Test
+	public void loginActi()
+	{
+		Reporter.log("Login",true);
+	}
+	
+}
